@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Formats.Asn1;
 using System.Security.Cryptography.X509Certificates;
-// pag45 c#player guide 
-Console.WriteLine("The Variable Shop");
+// pag45 c#player guide
+// Console.WriteLine("The Variable Shop");
 
 // declaration and initialization
+/*
 int a = 7;
 byte b = 7;
 short c =7;
@@ -53,4 +55,19 @@ Console.WriteLine(k);
 Console.WriteLine(l);
 Console.WriteLine(m);
 Console.WriteLine(n);
+*/ 
+
+// The Triangle Farmer pg.53
+
+Console.WriteLine("The Triangle Farmer");
+Console.WriteLine("Which is the size of your triangle base?");
+string btext = Console.ReadLine();
+double b = Convert.ToSingle(btext);
+
+Console.WriteLine("Which is the Height of your triangle?");
+string htext = Console.ReadLine();
+double h= Convert.ToSingle(htext);
+
+double area = b * h / 2;
+Console.WriteLine(area);
 
