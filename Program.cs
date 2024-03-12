@@ -57,7 +57,7 @@ Console.WriteLine(m);
 Console.WriteLine(n);
 */ 
 
-// The Triangle Farmer pg.53
+// The Triangle Farmer pg.53 create the area of triangle given the size of the heght and base 
 
 Console.WriteLine("The Triangle Farmer");
 Console.WriteLine("Which is the size of your triangle base?");
